@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 30px;
+    line-height: 1.6;
+}
+#resume {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+.header {
+    text-align: center;
+    background-color: #1e3a5f;
+    color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.header p {
+    margin-bottom: 0;
+}
+
+.section {
+    margin-top: 25px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    color: #1e3a5f;
+    font-size: 22px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background-color: #e1ecf7;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 20px;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f5;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.product-card {
+    width: 320px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+}
+
+h2 {
+    font-size: 22px;
+    color: #222;
+}
+
+.description {
+    color: #666;
+    line-height: 1.5;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #16834a;
+}
+
+button {
+    background-color: #1e73be;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #124c80;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 15px;
+    }
+
+    .product-card {
+        width: 100%;
+    }
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #edf0f8;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .form-container {
+            max-width: 500px;
+            margin: auto;
+            padding: 30px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease;
+        }
+
+        h1 {
+            text-align: center;
+            color: #343a70;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #5555cc;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 12px;
+            background-color: #5555cc;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+
+            transition: background-color 0.3s ease,
+                        transform 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #34349b;
+            transform: translateY(-2px);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(15px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
